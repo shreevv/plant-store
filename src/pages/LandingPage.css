@@ -6,7 +6,7 @@
   align-items: center;
   text-align: center;
   /* Make sure you have /public/images/background.jpg */
-  background-image: url('/images/background.jpg');
+  background-image: url('%PUBLIC_URL%/images/background.jpg');
   background-size: cover;
   background-position: center;
   color: white;
