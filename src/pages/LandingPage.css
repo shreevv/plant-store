@@ -1,0 +1,55 @@
+.landing-container {
+  height: 100vh;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  /* Make sure you have /public/images/background.jpg */
+  background-image: url('/images/background.jpg');
+  background-size: cover;
+  background-position: center;
+  color: white;
+}
+
+.landing-overlay {
+  height: 100%;
+  width: 100%;
+  background-color: rgba(0, 0, 0, 0.6);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.landing-content {
+  padding: 2rem 3rem;
+  border-radius: 8px;
+}
+
+.landing-content h1 {
+  font-size: 3rem;
+  color: #ffffff;
+  margin-bottom: 1rem;
+}
+
+.landing-content p {
+  font-size: 1.25rem;
+  max-width: 600px;
+  margin-bottom: 2rem;
+  line-height: 1.6;
+}
+
+.get-started-btn {
+  font-size: 1.25rem;
+  padding: 12px 24px;
+  background-color: #e76f51;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.get-started-btn:hover {
+  background-color: #f4a261;
+}
